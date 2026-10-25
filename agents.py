@@ -12,7 +12,7 @@ import re
 
 
 class Agent:
-    def __init__(self, name, description, client, llm="gpt-4-turbo-preview", **kwargs):
+    def __init__(self, name, description, client, llm="gpt-4.1", **kwargs):
         self.name = name
         self.description = description
         self.client = client
